@@ -9,3 +9,12 @@ I wanted Homebridge to be running in a container, but use the host's Avahi daemo
 ## Install
 
 Pull the image (or build from the Dockerfile) and run the container with ```--privileged --net=host -v /path/to/homebridge/config:/root/.homebridge -v /var/run/dbus:/var/run/dbus```
+
+## Details
+
+The base image is Ubuntu 17.04, and the following Homebridge plugins are installed:
+
+ * Nest
+ * HarmonyHub
+ * cmdSwitch2
+ * IFTTT
