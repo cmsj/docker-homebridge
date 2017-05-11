@@ -12,3 +12,6 @@ RUN apt-get update; \
     npm install -g --unsafe-perm homebridge homebridge-nest homebridge-harmonyhub homebridge-cmdswitch2 homebridge-ifttt
 
 CMD ["/usr/local/bin/homebridge"]
+VOLUME /root/.homebridge
+VOLUME /var/run/dbus
+
