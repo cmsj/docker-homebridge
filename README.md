@@ -15,6 +15,4 @@ Pull the image (or build from the Dockerfile) and run the container with ```--pr
 The base image is Ubuntu 17.04, and the following Homebridge plugins are installed:
 
  * Nest
- * HarmonyHub
- * cmdSwitch2
- * IFTTT
+ * Arlo
