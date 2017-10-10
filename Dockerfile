@@ -1,4 +1,4 @@
-FROM ubuntu:17.04
+FROM node:latest
 
 MAINTAINER Chris Jones
 
