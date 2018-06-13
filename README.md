@@ -12,7 +12,7 @@ Pull the image (or build from the Dockerfile) and run the container with ```--pr
 
 ## Details
 
-The base image is Ubuntu 17.04, and the following Homebridge plugins are installed:
+The base image is Node, and the following Homebridge plugins are installed:
 
  * Nest
  * Arlo
